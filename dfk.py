@@ -1,0 +1,13 @@
+import math;
+p=int(input("Enter p:"))
+g=int(input("Enter g:"))
+X_A=int(input("Enter X_A :"))
+X_B=int(input("Enter X_B :"))
+Y_A=pow(g,X_A,p)
+print("Y_A is :",Y_A)
+Y_B=pow(g,X_B,p)
+print("Y_B is :",Y_B)
+K_A=pow(Y_B,X_A,p)
+print("K_A is :",K_A)
+K_B=pow(Y_A,X_B,p)
+print("K_B is :",K_B)
